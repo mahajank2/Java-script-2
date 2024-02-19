@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2 id="star"></h2>
+<h3 id="moon"></h3>
+<h4 id="sun"></h4>
+<script>
+  //declares three variable at once
+  var firstName = "Moe", lastName ="Adam", age="52";
+document.getElementById('star').innerHTML =(firstName +"   "+ lastName+"   "+age);
+    var firstname="Mike";
+    var lastname="Douglas";
+    //declare the full name
+    alert(firstname   +"  "+   lastname);
+  //add the value
+  var total=0;
+  function addMe(x){
+ total +=x;
+}
+  addMe(30);
+  addMe(10);
+  addMe(20);
+  document.getElementById('moon').innerHTML=(total);
+function calculateCatAge(catAge){
+ var catYear = catAge * 7;
+ document.getElementById('sun').innerHTML = ("your cat is " +catYear +"years old in  cat years");
+}
+calculateCatAge(7);
+calculateCatAge(11);
+calculateCatAge(5);
+
+    </script>
+</body> 
+</html>
